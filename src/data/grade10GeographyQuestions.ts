@@ -1,881 +1,700 @@
 export const grade10GeographyQuestions = {
   "Unit 1: Land-forms Of Africa": [
-    // Easy
     {
-      question: "What is the highest mountain in Africa?",
-      options: ["Mount Kenya", "Mount Kilimanjaro", "Mount Elgon", "Mount Cameroon"],
-      correct: "Mount Kilimanjaro",
-      explanation: "Mount Kilimanjaro in Tanzania is the highest mountain in Africa, standing at 5,895 meters above sea level.",
+      question: "Define a plateau.",
+      options: [
+        "A flat elevated landform",
+        "A deep valley",
+        "A mountain peak",
+        "A coastal plain"
+      ],
+      correct: "A flat elevated landform",
+      explanation: "A plateau is an area of relatively level high ground, often formed by uplift or volcanic activity.",
       difficulty: "easy"
     },
     {
-      question: "The Great Rift Valley stretches from which region to which region?",
-      options: ["West Africa to East Africa", "North Africa to Southern Africa", "Red Sea to Mozambique", "Sahara to Congo"],
-      correct: "Red Sea to Mozambique",
-      explanation: "The Great Rift Valley extends from the Red Sea in the north to Mozambique in the south, spanning over 6,000 km.",
+      question: "What is the Great Rift Valley?",
+      options: [
+        "A large river system",
+        "A series of contiguous geographic trenches",
+        "A mountain range",
+        "A desert region"
+      ],
+      correct: "A series of contiguous geographic trenches",
+      explanation: "The Great Rift Valley is a continuous geographic trench, approximately 6,000 km in length, that runs from Lebanon to Mozambique.",
+      difficulty: "medium"
+    },
+    {
+      question: "Which of the following is the largest desert in Africa?",
+      options: ["Kalahari", "Namib", "Sahara", "Danakil"],
+      correct: "Sahara",
+      explanation: "The Sahara is the largest hot desert in the world, covering approximately 9.2 million square kilometers across North Africa.",
       difficulty: "easy"
     },
     {
-      question: "What type of landform is the Sahara?",
-      options: ["Plateau", "Desert", "Mountain", "Valley"],
-      correct: "Desert",
-      explanation: "The Sahara is the world's largest hot desert, covering much of North Africa.",
+      question: "What type of landform is the Drakensberg?",
+      options: ["Plateau", "Escarpment and mountain range", "Rift valley", "Coastal plain"],
+      correct: "Escarpment and mountain range",
+      explanation: "The Drakensberg is the eastern portion of the Great Escarpment in Southern Africa, forming a major mountain range that runs through South Africa, Lesotho, and Eswatini.",
       difficulty: "easy"
     },
     {
-      question: "Which of the following is a plateau in Africa?",
-      options: ["Nile Delta", "Ethiopian Highlands", "Sahara", "Lake Victoria"],
-      correct: "Ethiopian Highlands",
-      explanation: "The Ethiopian Highlands is a major plateau region in Africa, often called the 'Roof of Africa'.",
+      question: "The Sahel region lies between which two zones?",
+      options: [
+        "Tropical rainforest and Mediterranean",
+        "Sahara Desert and tropical savanna",
+        "Savanna and temperate grassland",
+        "Desert and coastal region"
+      ],
+      correct: "Sahara Desert and tropical savanna",
+      explanation: "The Sahel is a semi-arid transitional zone stretching across Africa between the arid Sahara to the north and the wetter tropical savanna to the south.",
       difficulty: "easy"
     },
     {
-      question: "What is a rift valley?",
-      options: ["A mountain range", "A long, narrow depression formed by faulting", "A type of river", "A volcanic island"],
-      correct: "A long, narrow depression formed by faulting",
-      explanation: "A rift valley is a lowland region formed by the separation of tectonic plates, creating a long depression between faults.",
-      difficulty: "easy"
-    },
-    // Medium
-    {
-      question: "Which tectonic process is primarily responsible for the formation of the East African Rift System?",
-      options: ["Folding", "Faulting", "Volcanic eruption", "Erosion"],
-      correct: "Faulting",
-      explanation: "The East African Rift System was formed by tensional faulting where tectonic plates diverge, causing the earth's crust to crack and sink.",
+      question: "What is a caldera?",
+      options: [
+        "A type of river delta",
+        "A large volcanic crater formed by collapse after an eruption",
+        "A coastal landform",
+        "A type of sand dune"
+      ],
+      correct: "A large volcanic crater formed by collapse after an eruption",
+      explanation: "A caldera is a large depression formed when a volcano erupts and collapses. Ngorongoro Crater in Tanzania is a famous example in Africa.",
       difficulty: "medium"
     },
     {
-      question: "The Atlas Mountains in North Africa were formed primarily by which process?",
-      options: ["Volcanic activity", "Folding", "Faulting", "Glaciation"],
-      correct: "Folding",
-      explanation: "The Atlas Mountains were formed by the collision and compression of the African and Eurasian tectonic plates, causing folding of rock layers.",
+      question: "How were the fold mountains of the Cape region in South Africa formed?",
+      options: [
+        "By volcanic activity",
+        "By compressive forces folding sedimentary rock layers",
+        "By glacial erosion",
+        "By river deposition"
+      ],
+      correct: "By compressive forces folding sedimentary rock layers",
+      explanation: "The Cape Fold Mountains were formed by tectonic compression during the late Paleozoic era, which folded layers of sedimentary rock into mountain ridges and valleys.",
       difficulty: "medium"
     },
     {
-      question: "Which of the following is an example of a block mountain in Africa?",
-      options: ["Atlas Mountains", "Drakensberg Mountains", "Ruwenzori Mountains", "Kilimanjaro"],
-      correct: "Ruwenzori Mountains",
-      explanation: "The Ruwenzori Mountains (Mountains of the Moon) are block mountains formed by faulting and uplifting between rift valleys.",
+      question: "Which lake occupies the western branch of the East African Rift?",
+      options: ["Lake Victoria", "Lake Turkana", "Lake Tanganyika", "Lake Tana"],
+      correct: "Lake Tanganyika",
+      explanation: "Lake Tanganyika occupies the western arm of the East African Rift System. It is the longest freshwater lake in the world and the second deepest after Lake Baikal.",
       difficulty: "medium"
     },
     {
-      question: "What distinguishes a horst from a graben in rift valley formation?",
-      options: ["A horst is the uplifted block while a graben is the down-dropped block", "A horst is formed by erosion while a graben by deposition", "Both are the same feature", "A horst is volcanic while a graben is not"],
-      correct: "A horst is the uplifted block while a graben is the down-dropped block",
-      explanation: "In rift valley formation, the graben is the depressed central block that forms the valley floor, while the horst is the elevated block that forms the escarpments.",
-      difficulty: "medium"
-    },
-    {
-      question: "The Congo Basin is an example of which landform type?",
-      options: ["Plateau", "Structural basin", "Fold mountain", "Rift valley"],
-      correct: "Structural basin",
-      explanation: "The Congo Basin is a large structural basin — a depression in the earth's surface surrounded by higher land, drained by the Congo River.",
-      difficulty: "medium"
-    },
-    // Hard
-    {
-      question: "How does the process of vulcanicity contribute to landform formation in the East African Rift?",
-      options: ["It creates fold mountains through compression", "Magma intrusion and extrusion build volcanic mountains and crater lakes", "It causes glaciation at high altitudes", "It primarily creates sedimentary basins"],
-      correct: "Magma intrusion and extrusion build volcanic mountains and crater lakes",
-      explanation: "Vulcanicity along the East African Rift produces volcanic mountains (Kilimanjaro, Mt. Kenya) through lava extrusion, and crater lakes form in collapsed volcanic cones (calderas).",
+      question: "What distinguishes the Ethiopian Highlands from other African plateaus in terms of geological origin?",
+      options: [
+        "They are entirely sedimentary",
+        "They were formed by massive volcanic lava flows (flood basalts) over the existing basement",
+        "They were formed by coral reef uplift",
+        "They are entirely composed of sandstone"
+      ],
+      correct: "They were formed by massive volcanic lava flows (flood basalts) over the existing basement",
+      explanation: "The Ethiopian Highlands were largely formed by extensive flood basalt eruptions during the Oligocene period, producing thick layers of volcanic rock that created Africa's most extensive highland region.",
       difficulty: "hard"
     },
     {
-      question: "Why is the eastern branch of the East African Rift more volcanically active than the western branch?",
-      options: ["The eastern branch has thinner crust allowing more magma penetration", "The western branch has more water bodies cooling the magma", "The eastern branch is at a higher altitude", "The western branch is older and more stable"],
-      correct: "The eastern branch has thinner crust allowing more magma penetration",
-      explanation: "The eastern branch has thinner lithosphere, allowing magma from the asthenosphere to penetrate more easily, resulting in greater volcanic activity compared to the western branch.",
-      difficulty: "hard"
-    },
-    {
-      question: "What is the significance of the Afar Triangle in understanding African landforms?",
-      options: ["It is where three tectonic plates meet, making it a triple junction", "It is the highest point in Africa", "It contains the oldest rocks on the continent", "It is the largest freshwater lake region"],
-      correct: "It is where three tectonic plates meet, making it a triple junction",
-      explanation: "The Afar Triangle (Afar Depression) is a geological triple junction where the Arabian, Nubian, and Somali plates diverge, representing an active continental rifting zone.",
-      difficulty: "hard"
-    },
-    {
-      question: "How do inselbergs form in the African landscape?",
-      options: ["Through volcanic eruption", "By differential weathering and erosion of surrounding softer rock", "Through glacial deposition", "By river meandering"],
-      correct: "By differential weathering and erosion of surrounding softer rock",
-      explanation: "Inselbergs are isolated hills that remain after long periods of erosion remove softer surrounding rock, leaving the harder resistant rock standing as isolated remnants.",
-      difficulty: "hard"
-    },
-    {
-      question: "Which evidence supports the theory that Africa was once connected to other continents in Gondwanaland?",
-      options: ["Similar climate patterns today", "Matching coastlines, fossil records, and rock formations across continents", "Identical river systems", "The same altitude across all continents"],
-      correct: "Matching coastlines, fossil records, and rock formations across continents",
-      explanation: "Continental drift evidence includes the jigsaw-fit of coastlines (especially Africa and South America), matching fossils (Mesosaurus), and similar geological formations across now-separated continents.",
+      question: "How does the process of peneplanation explain the prevalence of plateaus in Africa?",
+      options: [
+        "Plateaus were always flat",
+        "Long periods of erosion reduced ancient mountains to near-flat surfaces, which were later uplifted",
+        "Volcanic activity created all plateaus",
+        "Glaciation flattened the landscape"
+      ],
+      correct: "Long periods of erosion reduced ancient mountains to near-flat surfaces, which were later uplifted",
+      explanation: "Africa's extensive plateaus result from peneplanation — prolonged erosion wearing down ancient mountain ranges to near-level surfaces (peneplains), which were subsequently uplifted by tectonic forces to form elevated plateaus.",
       difficulty: "hard"
     }
   ],
   "Unit 2: Climate Of Africa": [
-    // Easy
     {
-      question: "Which climate zone covers most of Central Africa?",
-      options: ["Desert", "Mediterranean", "Tropical rainforest", "Savanna"],
-      correct: "Tropical rainforest",
-      explanation: "Central Africa, particularly the Congo Basin, is dominated by a tropical rainforest (equatorial) climate with high temperatures and heavy rainfall year-round.",
+      question: "What is the main factor influencing Africa's climate zones?",
+      options: [
+        "Altitude",
+        "Latitude",
+        "Ocean currents",
+        "Soil type"
+      ],
+      correct: "Latitude",
+      explanation: "Latitude primarily determines the amount of solar radiation received, influencing temperature and rainfall patterns that define Africa's climate zones.",
       difficulty: "easy"
     },
     {
-      question: "What is the main cause of the dry climate in the Sahara Desert?",
-      options: ["High altitude", "Subtropical high pressure system", "Ocean currents", "Volcanic activity"],
-      correct: "Subtropical high pressure system",
-      explanation: "The Sahara's dry climate is primarily caused by the descending air of the subtropical high pressure belt (Hadley Cell), which inhibits cloud formation and rainfall.",
+      question: "Which climate zone is characterized by high temperatures and heavy rainfall year-round?",
+      options: [
+        "Desert",
+        "Savanna",
+        "Equatorial",
+        "Mediterranean"
+      ],
+      correct: "Equatorial",
+      explanation: "The equatorial climate zone has consistently high temperatures and receives heavy rainfall throughout the year, supporting dense tropical rainforests.",
       difficulty: "easy"
     },
     {
-      question: "Which factor most directly affects temperature as altitude increases?",
-      options: ["Longitude", "Latitude", "Lapse rate", "Ocean currents"],
-      correct: "Lapse rate",
-      explanation: "The environmental lapse rate causes temperature to decrease by approximately 6.5°C per 1,000 meters of altitude gain.",
+      question: "What type of climate is characterized by hot, wet summers and warm, dry winters?",
+      options: [
+        "Desert climate",
+        "Tropical wet and dry (savanna) climate",
+        "Mediterranean climate",
+        "Equatorial climate"
+      ],
+      correct: "Tropical wet and dry (savanna) climate",
+      explanation: "The tropical wet and dry (savanna) climate has distinct wet and dry seasons, with hot temperatures year-round. It covers large areas of Africa surrounding the equatorial zone.",
       difficulty: "easy"
     },
     {
-      question: "The Inter-Tropical Convergence Zone (ITCZ) is associated with:",
-      options: ["Dry, cool weather", "Heavy rainfall and thunderstorms", "Snow and ice", "Strong westerly winds"],
-      correct: "Heavy rainfall and thunderstorms",
-      explanation: "The ITCZ is a zone near the equator where trade winds from the northern and southern hemispheres converge, causing air to rise and produce heavy rainfall.",
+      question: "Which wind system brings moisture to West Africa during the wet season?",
+      options: [
+        "Trade winds from the Sahara",
+        "Southwest monsoon winds",
+        "Westerlies",
+        "Polar easterlies"
+      ],
+      correct: "Southwest monsoon winds",
+      explanation: "The southwest monsoon winds bring moist air from the Atlantic Ocean to West Africa, causing the wet season as they converge with dry northeasterly Harmattan winds at the ITCZ.",
       difficulty: "easy"
     },
     {
-      question: "Mediterranean climate in Africa is found in which regions?",
-      options: ["Central Africa and West Africa", "Northern tip and southern tip of Africa", "East Africa and the Sahel", "The Congo Basin"],
-      correct: "Northern tip and southern tip of Africa",
-      explanation: "Mediterranean climate, with dry summers and wet winters, is found at the extreme northern (Morocco, Tunisia) and southern (Cape Town region) tips of Africa.",
-      difficulty: "easy"
-    },
-    // Medium
-    {
-      question: "How does the movement of the ITCZ affect seasonal rainfall patterns in Africa?",
-      options: ["It has no effect on rainfall", "It shifts north and south with the sun, bringing wet seasons", "It only affects coastal areas", "It creates permanent drought conditions"],
-      correct: "It shifts north and south with the sun, bringing wet seasons",
-      explanation: "The ITCZ migrates seasonally following the overhead sun — northward in June-August and southward in December-February — bringing wet seasons to areas it passes over.",
+      question: "What is the Harmattan?",
+      options: [
+        "A tropical cyclone",
+        "A dry, dusty wind blowing from the Sahara toward the Gulf of Guinea",
+        "A type of rainfall",
+        "An ocean current"
+      ],
+      correct: "A dry, dusty wind blowing from the Sahara toward the Gulf of Guinea",
+      explanation: "The Harmattan is a dry, dusty northeasterly trade wind that blows from the Sahara Desert across West Africa, typically from November to March, reducing visibility and lowering humidity.",
       difficulty: "medium"
     },
     {
-      question: "Which ocean current makes the west coast of Southern Africa dry?",
-      options: ["Agulhas Current", "Benguela Current", "Guinea Current", "Mozambique Current"],
-      correct: "Benguela Current",
-      explanation: "The cold Benguela Current flows northward along the west coast of Southern Africa, cooling the air and reducing its moisture-holding capacity, contributing to the Namib Desert's aridity.",
+      question: "Why does the East African coast receive less rainfall than the West African coast at similar latitudes?",
+      options: [
+        "The East coast is at higher altitude",
+        "Prevailing winds blow offshore on the East coast and onshore on the West coast",
+        "East Africa has more forests",
+        "The Indian Ocean is colder"
+      ],
+      correct: "Prevailing winds blow offshore on the East coast and onshore on the West coast",
+      explanation: "At equatorial latitudes, prevailing easterly winds cross the narrow East African landmass quickly, while on the wider West African coast, onshore moisture-laden winds penetrate deeper inland bringing more rainfall.",
       difficulty: "medium"
     },
     {
-      question: "What type of rainfall is most common in equatorial Africa?",
-      options: ["Frontal rainfall", "Relief rainfall", "Convectional rainfall", "Cyclonic rainfall"],
-      correct: "Convectional rainfall",
-      explanation: "Convectional rainfall dominates equatorial Africa — intense solar heating causes air to rise rapidly, cool, condense, and produce heavy afternoon thunderstorms.",
+      question: "How do Africa's diverse climates benefit the continent's people?",
+      options: [
+        "They don't provide any benefit",
+        "Different climates support varied agriculture, biodiversity, energy sources, and tourism",
+        "Only the equatorial climate is beneficial",
+        "Climate diversity causes only problems"
+      ],
+      correct: "Different climates support varied agriculture, biodiversity, energy sources, and tourism",
+      explanation: "Africa's climate diversity supports a wide range of crops, rich biodiversity attracting tourism, hydroelectric and solar energy potential, and varied livelihood systems adapted to different environmental conditions.",
       difficulty: "medium"
     },
     {
-      question: "Why does East Africa experience a bimodal rainfall pattern?",
-      options: ["Due to two monsoon seasons", "Because the ITCZ passes over it twice a year", "Due to two different ocean currents", "Because of its high altitude"],
-      correct: "Because the ITCZ passes over it twice a year",
-      explanation: "As the ITCZ migrates north and south annually, it crosses East Africa twice — creating two rainy seasons: the 'long rains' (March-May) and 'short rains' (October-December).",
-      difficulty: "medium"
-    },
-    {
-      question: "How does Lake Victoria influence the climate of its surrounding region?",
-      options: ["It makes the region drier", "It moderates temperatures and increases rainfall through evaporation", "It causes permanent fog", "It has no effect on local climate"],
-      correct: "It moderates temperatures and increases rainfall through evaporation",
-      explanation: "Lake Victoria acts as a large water body that moderates surrounding temperatures and provides moisture through evaporation, increasing local convectional rainfall.",
-      difficulty: "medium"
-    },
-    // Hard
-    {
-      question: "How do the Walker Circulation and El Niño/La Niña phenomena affect African climate patterns?",
-      options: ["They have no impact on Africa", "El Niño brings drought to East Africa and floods to Southern Africa", "El Niño often brings increased rainfall to East Africa and drought to Southern Africa", "They only affect wind patterns, not rainfall"],
-      correct: "El Niño often brings increased rainfall to East Africa and drought to Southern Africa",
-      explanation: "During El Niño events, warmer Indian Ocean waters typically increase rainfall in East Africa while causing drought in Southern Africa. La Niña generally reverses these patterns.",
+      question: "How does the Indian Ocean Dipole (IOD) affect rainfall in East Africa?",
+      options: [
+        "It has no effect",
+        "A positive IOD brings increased rainfall to East Africa while a negative IOD reduces it",
+        "It only affects wind patterns",
+        "It only affects southern Africa"
+      ],
+      correct: "A positive IOD brings increased rainfall to East Africa while a negative IOD reduces it",
+      explanation: "The IOD involves temperature differences across the Indian Ocean. During a positive IOD, warmer waters near East Africa increase evaporation and moisture availability, enhancing rainfall in the region.",
       difficulty: "hard"
     },
     {
-      question: "Why does the Sahel region experience highly variable and unpredictable rainfall?",
-      options: ["Due to constant high pressure", "It lies in the transition zone between the Sahara and tropical wet climate, sensitive to ITCZ shifts", "Because of its high altitude", "Due to cold ocean currents"],
-      correct: "It lies in the transition zone between the Sahara and tropical wet climate, sensitive to ITCZ shifts",
-      explanation: "The Sahel is a marginal zone where small shifts in the ITCZ position or intensity cause dramatic changes in rainfall, making it highly vulnerable to drought and desertification.",
-      difficulty: "hard"
-    },
-    {
-      question: "How does the Ethiopian Highlands' orographic effect create distinct microclimates?",
-      options: ["By blocking all rainfall", "Windward slopes receive heavy rainfall while leeward slopes are drier (rain shadow)", "By increasing temperatures at all elevations", "By creating uniform climate conditions throughout"],
-      correct: "Windward slopes receive heavy rainfall while leeward slopes are drier (rain shadow)",
-      explanation: "Moist air forced upward over the Ethiopian Highlands cools and produces heavy relief rainfall on windward slopes, while descending air on leeward slopes creates drier rain shadow areas.",
-      difficulty: "hard"
-    },
-    {
-      question: "What role do tropical easterly jet streams play in bringing rainfall to Ethiopia?",
-      options: ["They block moisture from entering the region", "They carry moisture from the Indian Ocean and enhance monsoon rainfall", "They only cause dry conditions", "They create snowfall at high altitudes"],
-      correct: "They carry moisture from the Indian Ocean and enhance monsoon rainfall",
-      explanation: "The Tropical Easterly Jet (TEJ) over Ethiopia during summer enhances upper-level divergence, which promotes low-level convergence and upward air motion, intensifying monsoon rainfall.",
-      difficulty: "hard"
-    },
-    {
-      question: "How is climate change projected to alter Africa's major climate zones by the end of the 21st century?",
-      options: ["All zones will become wetter", "Expansion of arid zones, increased rainfall variability, and more extreme weather events", "Climate zones will remain unchanged", "All zones will become cooler"],
-      correct: "Expansion of arid zones, increased rainfall variability, and more extreme weather events",
-      explanation: "Climate models project expanding Saharan and Kalahari arid zones, increased rainfall variability in the Sahel and East Africa, rising temperatures, and more frequent extreme weather events across Africa.",
+      question: "What are the projected impacts of climate change on Africa's agricultural zones?",
+      options: [
+        "No change expected",
+        "Shifting climate zones will alter crop suitability, reduce yields in some areas, and increase pest/disease pressure",
+        "All areas will become more productive",
+        "Only desert areas will be affected"
+      ],
+      correct: "Shifting climate zones will alter crop suitability, reduce yields in some areas, and increase pest/disease pressure",
+      explanation: "Climate change is projected to shift agricultural zones, reduce maize and wheat yields by up to 20-30% in some regions, expand the range of crop pests, and increase water stress for irrigation-dependent farming.",
       difficulty: "hard"
     }
   ],
   "Unit 3: Natural Resource Base Of Africa": [
-    // Easy
     {
-      question: "Which African country is the largest producer of gold?",
-      options: ["Nigeria", "South Africa", "Ghana", "Tanzania"],
-      correct: "South Africa",
-      explanation: "South Africa has historically been the largest gold producer in Africa, with the Witwatersrand Basin being one of the richest gold deposits in the world.",
+      question: "What are natural resources?",
+      options: [
+        "Man-made products",
+        "Materials found in nature that are useful to humans",
+        "Only minerals",
+        "Only plants and animals"
+      ],
+      correct: "Materials found in nature that are useful to humans",
+      explanation: "Natural resources include minerals, water, soil, plants, and animals that humans use for economic and social needs.",
       difficulty: "easy"
     },
     {
-      question: "What is a renewable natural resource?",
-      options: ["Oil", "Gold", "Forests", "Diamonds"],
-      correct: "Forests",
-      explanation: "Forests are renewable resources because they can regenerate through natural growth or replanting, unlike minerals and fossil fuels which are finite.",
+      question: "Which river is the longest in Africa?",
+      options: ["Congo River", "Niger River", "Zambezi River", "Nile River"],
+      correct: "Nile River",
+      explanation: "The Nile River, stretching approximately 6,650 km from Burundi to the Mediterranean Sea, is the longest river in Africa and one of the longest in the world.",
       difficulty: "easy"
     },
     {
-      question: "The Niger Delta is known for which major natural resource?",
-      options: ["Gold", "Diamonds", "Petroleum (oil)", "Copper"],
-      correct: "Petroleum (oil)",
-      explanation: "The Niger Delta in Nigeria is one of Africa's most important petroleum-producing regions, making Nigeria the continent's largest oil producer.",
+      question: "What type of soil is most suitable for agriculture?",
+      options: ["Sandy soil", "Laterite soil", "Loamy soil", "Rocky soil"],
+      correct: "Loamy soil",
+      explanation: "Loamy soil is a balanced mixture of sand, silt, and clay with good drainage, water retention, and nutrient content, making it the most fertile and suitable for agriculture.",
       difficulty: "easy"
     },
     {
-      question: "Which African lake is the largest freshwater lake by surface area?",
-      options: ["Lake Tanganyika", "Lake Malawi", "Lake Victoria", "Lake Chad"],
-      correct: "Lake Victoria",
-      explanation: "Lake Victoria, shared by Kenya, Tanzania, and Uganda, is Africa's largest lake and the world's second-largest freshwater lake by surface area.",
-      difficulty: "easy"
-    },
-    {
-      question: "What type of resource is soil?",
-      options: ["Non-renewable", "Renewable if properly managed", "Infinite", "Artificial"],
-      correct: "Renewable if properly managed",
-      explanation: "Soil is considered a renewable resource if it is properly managed through conservation practices, though it takes hundreds of years to form naturally.",
-      difficulty: "easy"
-    },
-    // Medium
-    {
-      question: "Why is the 'resource curse' a concern for many African countries?",
-      options: ["They have too few resources", "Abundant natural resources can lead to corruption, conflict, and poor economic development", "Resources are too expensive to extract", "Foreign countries refuse to trade with them"],
-      correct: "Abundant natural resources can lead to corruption, conflict, and poor economic development",
-      explanation: "The 'resource curse' refers to the paradox where countries rich in natural resources often experience slower economic growth, more corruption, and political instability than resource-poor countries.",
+      question: "What is the significance of the Congo River basin's tropical rainforest?",
+      options: [
+        "It has no global importance",
+        "It is the world's second-largest tropical rainforest, serving as a major carbon sink and biodiversity hotspot",
+        "It is the smallest forest in Africa",
+        "It is primarily used for mining"
+      ],
+      correct: "It is the world's second-largest tropical rainforest, serving as a major carbon sink and biodiversity hotspot",
+      explanation: "The Congo Basin rainforest is the second-largest tropical forest after the Amazon, absorbing significant CO2, hosting enormous biodiversity, and regulating regional and global climate patterns.",
       difficulty: "medium"
     },
     {
-      question: "What is the main environmental impact of deforestation in tropical Africa?",
-      options: ["Increased biodiversity", "Soil erosion, loss of biodiversity, and increased carbon emissions", "Improved water quality", "Cooler temperatures"],
-      correct: "Soil erosion, loss of biodiversity, and increased carbon emissions",
-      explanation: "Deforestation in tropical Africa leads to massive soil erosion, loss of plant and animal species, disrupted water cycles, and release of stored carbon into the atmosphere.",
+      question: "How does the Zambezi River contribute to Southern Africa's economy?",
+      options: [
+        "It has no economic value",
+        "Through hydroelectric power (Kariba Dam), irrigation, fisheries, and tourism (Victoria Falls)",
+        "Only through fishing",
+        "Only through transportation"
+      ],
+      correct: "Through hydroelectric power (Kariba Dam), irrigation, fisheries, and tourism (Victoria Falls)",
+      explanation: "The Zambezi River supports multiple economies through the Kariba and Cahora Bassa dams for hydroelectricity, irrigation for agriculture, commercial fisheries, and world-famous tourism at Victoria Falls.",
       difficulty: "medium"
     },
     {
-      question: "Which mineral resource is the Democratic Republic of Congo particularly known for?",
-      options: ["Gold", "Cobalt and coltan", "Iron ore", "Bauxite"],
-      correct: "Cobalt and coltan",
-      explanation: "The DRC holds over 60% of the world's cobalt reserves and significant coltan deposits, both essential for electronics and battery manufacturing.",
-      difficulty: "medium"
-    },
-    {
-      question: "How does overgrazing contribute to desertification in the Sahel?",
-      options: ["It increases vegetation cover", "It removes vegetation, exposing soil to wind and water erosion", "It improves soil fertility", "It has no effect on the environment"],
-      correct: "It removes vegetation, exposing soil to wind and water erosion",
-      explanation: "Overgrazing strips vegetation cover, leaving soil exposed to erosion by wind and rain, reducing soil fertility and allowing desert conditions to expand into previously productive land.",
-      difficulty: "medium"
-    },
-    {
-      question: "What is the significance of the Nile River as a natural resource?",
-      options: ["It is only used for fishing", "It provides water for irrigation, hydroelectric power, transportation, and domestic use for millions", "It is only important for tourism", "It has little economic value"],
-      correct: "It provides water for irrigation, hydroelectric power, transportation, and domestic use for millions",
-      explanation: "The Nile is vital for irrigation (especially in Egypt and Sudan), hydroelectric power (Aswan Dam, GERD), transportation, fishing, and water supply for over 300 million people.",
-      difficulty: "medium"
-    },
-    // Hard
-    {
-      question: "How does the concept of 'land grabbing' affect Africa's natural resource management?",
-      options: ["It improves land productivity for local communities", "Foreign acquisition of large tracts of land can displace communities and prioritize export crops over food security", "It has no significant impact", "It only affects urban areas"],
-      correct: "Foreign acquisition of large tracts of land can displace communities and prioritize export crops over food security",
-      explanation: "Land grabbing involves foreign investors acquiring vast African farmlands, often displacing local communities, converting subsistence farmland to commercial export crops, and threatening food security and traditional livelihoods.",
+      question: "Why are laterite soils generally poor for agriculture despite covering large areas of tropical Africa?",
+      options: [
+        "They are too sandy",
+        "Heavy rainfall leaches nutrients, and iron/aluminum oxides create hard crusts when exposed",
+        "They contain too much organic matter",
+        "They are too acidic only"
+      ],
+      correct: "Heavy rainfall leaches nutrients, and iron/aluminum oxides create hard crusts when exposed",
+      explanation: "Laterite soils form under high rainfall that leaches soluble nutrients. They are rich in iron and aluminum oxides that harden into impenetrable crusts (laterite) when vegetation is cleared and soil is exposed to the sun.",
       difficulty: "hard"
     },
     {
-      question: "Why is the Grand Ethiopian Renaissance Dam (GERD) a source of geopolitical tension?",
-      options: ["It produces too much electricity", "Downstream countries (Egypt, Sudan) fear reduced water flow while Ethiopia needs it for development", "It was built in the wrong location", "It only benefits foreign investors"],
-      correct: "Downstream countries (Egypt, Sudan) fear reduced water flow while Ethiopia needs it for development",
-      explanation: "The GERD on the Blue Nile creates tension because Ethiopia needs hydroelectric power for development, while Egypt and Sudan depend on Nile water for agriculture and fear reduced downstream flow during dam filling and operation.",
-      difficulty: "hard"
-    },
-    {
-      question: "How does artisanal mining in Africa create both economic opportunities and environmental challenges?",
-      options: ["It only creates wealth", "It provides livelihoods for millions but causes mercury pollution, deforestation, and soil degradation", "It has no environmental impact", "It only affects large corporations"],
-      correct: "It provides livelihoods for millions but causes mercury pollution, deforestation, and soil degradation",
-      explanation: "Artisanal mining employs millions of Africans but often uses mercury in gold processing (contaminating water and soil), clears forests for mining sites, and creates unrehabilitated pits causing soil degradation.",
-      difficulty: "hard"
-    },
-    {
-      question: "What role does the African Union's Agenda 2063 envision for natural resource governance?",
-      options: ["Exporting all resources to developed countries", "Sustainable management, beneficiation, and value addition within Africa for equitable development", "Banning all mining activities", "Privatizing all natural resources"],
-      correct: "Sustainable management, beneficiation, and value addition within Africa for equitable development",
-      explanation: "Agenda 2063 promotes African countries processing their own raw materials (beneficiation), implementing sustainable extraction practices, and ensuring resource revenues benefit local populations equitably.",
-      difficulty: "hard"
-    },
-    {
-      question: "How do Payment for Ecosystem Services (PES) programs help conserve Africa's natural resources?",
-      options: ["By banning all resource use", "By providing financial incentives to communities that protect ecosystems like forests and watersheds", "By increasing industrial exploitation", "By relocating communities away from resources"],
-      correct: "By providing financial incentives to communities that protect ecosystems like forests and watersheds",
-      explanation: "PES programs compensate communities or landowners for maintaining ecosystem services (carbon storage, water purification, biodiversity), creating economic incentives for conservation over exploitation.",
+      question: "How does Africa's mineral wealth influence its geopolitical position in the global economy?",
+      options: [
+        "Africa has few minerals",
+        "Africa's critical minerals (cobalt, platinum, rare earths) give it strategic importance but also attract exploitation and resource competition",
+        "Minerals have no geopolitical significance",
+        "Only oil is geopolitically important"
+      ],
+      correct: "Africa's critical minerals (cobalt, platinum, rare earths) give it strategic importance but also attract exploitation and resource competition",
+      explanation: "Africa holds 30% of the world's mineral reserves, including critical minerals for green energy technology. This creates strategic importance but also invites competition among global powers, resource extraction without adequate local benefit, and geopolitical tensions.",
       difficulty: "hard"
     }
   ],
   "Unit 4: Population of Africa": [
-    // Easy
     {
-      question: "Which is the most populous country in Africa?",
-      options: ["South Africa", "Egypt", "Ethiopia", "Nigeria"],
-      correct: "Nigeria",
-      explanation: "Nigeria is the most populous country in Africa with over 220 million people, making it also the most populous country in the world's African continent.",
-      difficulty: "easy"
-    },
-    {
-      question: "What does 'population density' mean?",
-      options: ["Total number of people in a country", "Number of people per unit area", "The growth rate of population", "Number of cities in a country"],
+      question: "What is population density?",
+      options: [
+        "Number of people per unit area",
+        "Total population",
+        "Birth rate",
+        "Death rate"
+      ],
       correct: "Number of people per unit area",
-      explanation: "Population density is calculated by dividing the total population by the total land area, expressed as people per square kilometer.",
+      explanation: "Population density measures how many people live in a given area, usually per square kilometer or mile.",
       difficulty: "easy"
     },
     {
-      question: "Which factor is a major cause of rapid population growth in Africa?",
-      options: ["High death rates", "High birth rates", "Emigration", "Low fertility rates"],
-      correct: "High birth rates",
-      explanation: "High birth rates, driven by factors like early marriage, limited access to family planning, and cultural preferences for large families, are the primary cause of rapid population growth in Africa.",
+      question: "What is a population pyramid?",
+      options: [
+        "An ancient Egyptian structure",
+        "A graphical representation showing age and sex distribution of a population",
+        "A population growth model",
+        "A type of census form"
+      ],
+      correct: "A graphical representation showing age and sex distribution of a population",
+      explanation: "A population pyramid (age-sex pyramid) is a bar graph showing the distribution of a population by age groups and sex, helping visualize demographic structure and trends.",
       difficulty: "easy"
     },
     {
-      question: "What is urbanization?",
-      options: ["Movement of people from cities to rural areas", "Growth and expansion of cities and urban populations", "Decline in population", "Agricultural development"],
-      correct: "Growth and expansion of cities and urban populations",
-      explanation: "Urbanization is the process of population shift from rural to urban areas, resulting in the growth and expansion of cities.",
+      question: "What does the dependency ratio measure?",
+      options: [
+        "Economic growth rate",
+        "The ratio of non-working age population to working-age population",
+        "Migration rates",
+        "Literacy rates"
+      ],
+      correct: "The ratio of non-working age population to working-age population",
+      explanation: "The dependency ratio compares the number of dependents (under 15 and over 64) to the working-age population (15-64), indicating the economic burden on productive members of society.",
       difficulty: "easy"
     },
     {
-      question: "What is a census?",
-      options: ["A type of government", "An official count of a country's population", "A weather forecast", "An economic report"],
-      correct: "An official count of a country's population",
-      explanation: "A census is an official, systematic count of a country's population, typically conducted every 10 years, collecting data on demographics, housing, and socioeconomic characteristics.",
-      difficulty: "easy"
-    },
-    // Medium
-    {
-      question: "What is the demographic transition model and where do most African countries fall?",
-      options: ["A model of economic growth; Stage 4", "A model showing population change through stages; most are in Stage 2 or 3", "A model of urbanization; Stage 1", "A model of migration; Stage 5"],
-      correct: "A model showing population change through stages; most are in Stage 2 or 3",
-      explanation: "The demographic transition model describes how populations change from high birth/death rates to low rates. Most African countries are in Stage 2 (declining death rates, high birth rates) or early Stage 3 (declining birth rates).",
+      question: "What is the typical shape of a population pyramid for most African countries?",
+      options: [
+        "Column-shaped",
+        "Inverted triangle",
+        "Broad base, narrow top (triangular)",
+        "Diamond-shaped"
+      ],
+      correct: "Broad base, narrow top (triangular)",
+      explanation: "Most African countries have a broad-based pyramid shape reflecting high birth rates (many young people) and relatively high mortality rates, resulting in a large youth population and fewer elderly.",
       difficulty: "medium"
     },
     {
-      question: "How does the 'youth bulge' affect African economies?",
-      options: ["It has no effect", "It creates both opportunities for economic growth and challenges for job creation and services", "It only causes unemployment", "It only benefits the economy"],
-      correct: "It creates both opportunities for economic growth and challenges for job creation and services",
-      explanation: "Africa's youth bulge (large young population) offers a potential 'demographic dividend' if young people are educated and employed, but also strains education, healthcare, and job markets if opportunities are lacking.",
+      question: "How does rural-to-urban migration affect both rural and urban areas in Africa?",
+      options: [
+        "It only affects cities",
+        "Rural areas lose labor force; cities gain workers but face pressure on housing, services, and infrastructure",
+        "It benefits both equally",
+        "It has no significant effects"
+      ],
+      correct: "Rural areas lose labor force; cities gain workers but face pressure on housing, services, and infrastructure",
+      explanation: "Rural-to-urban migration depletes the agricultural labor force in rural areas while creating overcrowding, informal settlements, unemployment, and strain on urban services in destination cities.",
       difficulty: "medium"
     },
     {
-      question: "What are 'push' and 'pull' factors in migration?",
-      options: ["Types of population policies", "Push factors drive people away from an area; pull factors attract people to a new area", "Economic theories about trade", "Methods of counting population"],
-      correct: "Push factors drive people away from an area; pull factors attract people to a new area",
-      explanation: "Push factors (poverty, conflict, drought) force people to leave, while pull factors (jobs, education, safety) attract them to new locations, together explaining migration patterns.",
-      difficulty: "medium"
-    },
-    {
-      question: "Why is the population distribution in Africa uneven?",
-      options: ["All areas have the same population", "Physical factors (climate, water, terrain) and human factors (economic opportunities, infrastructure) cause uneven distribution", "Only government policies determine distribution", "Population is evenly distributed"],
-      correct: "Physical factors (climate, water, terrain) and human factors (economic opportunities, infrastructure) cause uneven distribution",
-      explanation: "Areas with favorable climate, water availability, fertile soil, and economic opportunities (like the Nile Valley, coastal cities) are densely populated, while deserts and dense forests are sparsely populated.",
-      difficulty: "medium"
-    },
-    {
-      question: "What is the natural increase rate of a population?",
-      options: ["Immigration minus emigration", "Birth rate minus death rate", "Total population divided by area", "Number of births per year"],
-      correct: "Birth rate minus death rate",
-      explanation: "The natural increase rate is calculated by subtracting the crude death rate from the crude birth rate (excluding migration), usually expressed per 1,000 people.",
-      difficulty: "medium"
-    },
-    // Hard
-    {
-      question: "How does the concept of 'demographic dividend' apply to Africa's development potential?",
-      options: ["It is irrelevant to Africa", "If Africa invests in education, health, and jobs for its growing working-age population, it can achieve accelerated economic growth", "It only applies to developed countries", "It requires population decline"],
-      correct: "If Africa invests in education, health, and jobs for its growing working-age population, it can achieve accelerated economic growth",
-      explanation: "The demographic dividend occurs when a declining dependency ratio (more working-age people relative to dependents) boosts economic growth — but only if countries invest in human capital, job creation, and governance.",
+      question: "How do cultural and religious factors influence population growth patterns in different African regions?",
+      options: [
+        "They have no influence",
+        "Cultural values about family size, marriage age, and gender roles significantly impact fertility rates and growth patterns",
+        "Only economic factors matter",
+        "Religion has no impact on demographics"
+      ],
+      correct: "Cultural values about family size, marriage age, and gender roles significantly impact fertility rates and growth patterns",
+      explanation: "Cultural norms favoring large families, early marriage, limited female autonomy, and religious teachings on contraception all influence fertility decisions, contributing to regional variations in population growth across Africa.",
       difficulty: "hard"
     },
     {
-      question: "How do refugee movements impact both origin and host countries in Africa?",
-      options: ["They only affect host countries", "Origin countries lose human capital; host countries face resource strain but may gain labor and cultural diversity", "They have no significant impact", "They only affect the refugees themselves"],
-      correct: "Origin countries lose human capital; host countries face resource strain but may gain labor and cultural diversity",
-      explanation: "Origin countries suffer brain drain and economic disruption. Host countries face pressure on resources, infrastructure, and services, but refugees can also contribute labor, entrepreneurship, and cultural exchange.",
-      difficulty: "hard"
-    },
-    {
-      question: "Why is Africa's rapid urbanization considered both an opportunity and a challenge?",
-      options: ["It is only beneficial", "Cities drive economic growth and innovation but face problems of slums, pollution, and inadequate infrastructure", "It is only harmful", "Urbanization has stopped in Africa"],
-      correct: "Cities drive economic growth and innovation but face problems of slums, pollution, and inadequate infrastructure",
-      explanation: "Urban areas drive 80% of Africa's GDP and foster innovation, but rapid unplanned urbanization leads to sprawling slums, inadequate water/sanitation, traffic congestion, pollution, and social inequality.",
-      difficulty: "hard"
-    },
-    {
-      question: "How do pro-natalist and anti-natalist policies differ in addressing population issues in Africa?",
-      options: ["They are the same policy", "Pro-natalist policies encourage higher birth rates while anti-natalist policies aim to reduce birth rates through family planning", "Both aim to increase population", "Neither has been implemented in Africa"],
-      correct: "Pro-natalist policies encourage higher birth rates while anti-natalist policies aim to reduce birth rates through family planning",
-      explanation: "Some African governments promote pro-natalist policies (incentivizing large families), while others implement anti-natalist policies (family planning education, contraceptive access) to manage population growth, depending on their demographic and economic context.",
-      difficulty: "hard"
-    },
-    {
-      question: "What is the relationship between female education and fertility rates in Africa?",
-      options: ["No relationship exists", "Higher female education strongly correlates with lower fertility rates", "Education increases fertility", "Only male education affects fertility"],
-      correct: "Higher female education strongly correlates with lower fertility rates",
-      explanation: "Research consistently shows that as female education levels increase, fertility rates decline. Educated women tend to marry later, use contraception more, and have fewer children, making girls' education one of the most effective population management tools.",
+      question: "What are the challenges of conducting accurate population censuses in many African countries?",
+      options: [
+        "There are no challenges",
+        "Difficult terrain, nomadic populations, political sensitivities, limited funding, and conflict zones make accurate counting extremely challenging",
+        "Technology solves all problems",
+        "Only funding is an issue"
+      ],
+      correct: "Difficult terrain, nomadic populations, political sensitivities, limited funding, and conflict zones make accurate counting extremely challenging",
+      explanation: "African census challenges include accessing remote and conflict-affected areas, counting nomadic populations, ethnic/political sensitivities around numbers, inadequate funding and trained personnel, and irregular census schedules.",
       difficulty: "hard"
     }
   ],
   "Unit 5: Major Economic and Cultural Activities of Africa": [
-    // Easy
-    {
-      question: "What is the most common economic activity in rural Africa?",
-      options: ["Manufacturing", "Mining", "Agriculture", "Tourism"],
-      correct: "Agriculture",
-      explanation: "Agriculture is the primary economic activity in rural Africa, employing about 60% of the continent's workforce and providing livelihoods for millions of families.",
-      difficulty: "easy"
-    },
-    {
-      question: "Which country is Africa's largest economy?",
-      options: ["South Africa", "Egypt", "Nigeria", "Kenya"],
-      correct: "Nigeria",
-      explanation: "Nigeria has Africa's largest economy by GDP, driven primarily by its oil and gas sector, along with growing telecommunications, banking, and entertainment industries.",
-      difficulty: "easy"
-    },
     {
       question: "What is subsistence farming?",
-      options: ["Large-scale commercial farming", "Farming mainly to feed the farmer's family", "Industrial agriculture", "Livestock ranching only"],
-      correct: "Farming mainly to feed the farmer's family",
-      explanation: "Subsistence farming is a type of agriculture where farmers grow crops and raise livestock primarily to feed themselves and their families, with little or no surplus for sale.",
+      options: [
+        "Farming to sell crops for profit",
+        "Farming to produce food mainly for the farmer's family",
+        "Industrial agriculture",
+        "Fishing"
+      ],
+      correct: "Farming to produce food mainly for the farmer's family",
+      explanation: "Subsistence farming is agriculture focused on growing enough food to feed the farmer's household, with little surplus for sale.",
       difficulty: "easy"
     },
     {
-      question: "Which African region is famous for its wildlife safari tourism?",
-      options: ["North Africa", "East Africa", "West Africa", "Central Africa"],
-      correct: "East Africa",
-      explanation: "East Africa (Kenya, Tanzania, Uganda) is world-renowned for wildlife safari tourism, featuring the Serengeti, Masai Mara, and numerous national parks with diverse wildlife.",
+      question: "What are the Sustainable Development Goals (SDGs)?",
+      options: [
+        "African Union trade agreements",
+        "17 global goals adopted by the UN to end poverty, protect the planet, and ensure peace and prosperity by 2030",
+        "Ethiopian economic policies",
+        "EU agricultural standards"
+      ],
+      correct: "17 global goals adopted by the UN to end poverty, protect the planet, and ensure peace and prosperity by 2030",
+      explanation: "The SDGs are 17 interconnected global goals adopted in 2015 by all UN member states, addressing poverty, hunger, health, education, climate change, and other development challenges.",
       difficulty: "easy"
     },
     {
-      question: "What is a cash crop?",
-      options: ["A crop grown only for family use", "A crop grown primarily for sale and profit", "A wild plant", "A crop that requires no water"],
-      correct: "A crop grown primarily for sale and profit",
-      explanation: "Cash crops are agricultural products grown specifically for sale in markets rather than for the farmer's own consumption. Examples in Africa include coffee, cocoa, tea, and cotton.",
+      question: "What is Africa's Agenda 2063?",
+      options: [
+        "A single country's plan",
+        "The African Union's 50-year development framework for inclusive and sustainable development",
+        "A UN program",
+        "A European aid program"
+      ],
+      correct: "The African Union's 50-year development framework for inclusive and sustainable development",
+      explanation: "Agenda 2063 is the African Union's strategic framework adopted in 2013, envisioning 'The Africa We Want' — a prosperous, integrated, peaceful continent driven by its own citizens.",
       difficulty: "easy"
     },
-    // Medium
     {
-      question: "How does the African Continental Free Trade Area (AfCFTA) aim to transform Africa's economy?",
-      options: ["By closing all borders", "By creating a single continental market for goods and services to boost intra-African trade", "By banning foreign investment", "By eliminating all agriculture"],
-      correct: "By creating a single continental market for goods and services to boost intra-African trade",
-      explanation: "AfCFTA aims to create the world's largest free trade area by eliminating tariffs on most goods, boosting intra-African trade (currently only about 15% of total trade), and promoting industrialization.",
+      question: "How does linguistic diversity in Africa affect economic activities and governance?",
+      options: [
+        "It has no effect",
+        "It enriches cultural heritage but can create communication barriers, complicating trade, education, and administration",
+        "It only causes problems",
+        "All Africans speak the same language"
+      ],
+      correct: "It enriches cultural heritage but can create communication barriers, complicating trade, education, and administration",
+      explanation: "Africa has over 2,000 languages. While this reflects rich cultural diversity, it can complicate cross-border trade, national education systems, and governance, requiring multilingual policies and lingua francas.",
       difficulty: "medium"
     },
     {
-      question: "What is the difference between primary and secondary economic activities?",
-      options: ["They are the same", "Primary involves extracting raw materials; secondary involves processing them into finished goods", "Primary is services; secondary is farming", "Primary is more important than secondary"],
-      correct: "Primary involves extracting raw materials; secondary involves processing them into finished goods",
-      explanation: "Primary activities extract raw materials (farming, mining, fishing), while secondary activities process these materials into finished products (manufacturing, construction).",
+      question: "What solutions can address unemployment in Africa according to the curriculum?",
+      options: [
+        "Only foreign aid",
+        "Entrepreneurship promotion, skills training, industrialization, agricultural modernization, and supporting the informal sector",
+        "Reducing the population",
+        "Only government jobs"
+      ],
+      correct: "Entrepreneurship promotion, skills training, industrialization, agricultural modernization, and supporting the informal sector",
+      explanation: "Addressing Africa's unemployment requires multi-pronged approaches: promoting entrepreneurship, providing relevant vocational training, developing manufacturing industries, modernizing agriculture, and formalizing the informal economy.",
       difficulty: "medium"
     },
     {
-      question: "Why is coffee culturally and economically significant to Ethiopia?",
-      options: ["It was introduced recently from Europe", "Ethiopia is the birthplace of coffee, and it is a major export and central to social culture", "It is only grown for local use", "It has no cultural importance"],
-      correct: "Ethiopia is the birthplace of coffee, and it is a major export and central to social culture",
-      explanation: "Ethiopia is considered the origin of coffee (Arabica). Coffee is Ethiopia's largest export, and the traditional coffee ceremony is a central social and cultural practice symbolizing friendship and community.",
-      difficulty: "medium"
-    },
-    {
-      question: "How does the informal economy function in African cities?",
-      options: ["It doesn't exist", "It includes unregistered small businesses, street vending, and services that provide livelihoods outside formal employment", "It is the same as the formal economy", "It only includes illegal activities"],
-      correct: "It includes unregistered small businesses, street vending, and services that provide livelihoods outside formal employment",
-      explanation: "The informal economy in Africa employs up to 85% of workers in some countries, including market traders, artisans, and service providers who operate without formal registration or regulation.",
-      difficulty: "medium"
-    },
-    {
-      question: "What role does pastoralism play in African economies?",
-      options: ["It is no longer practiced", "It provides livelihood through livestock herding, especially in arid and semi-arid regions", "It is only practiced in cities", "It involves only crop farming"],
-      correct: "It provides livelihood through livestock herding, especially in arid and semi-arid regions",
-      explanation: "Pastoralism is vital in Africa's arid and semi-arid zones (Sahel, Horn of Africa, East Africa), where communities like the Maasai and Fulani depend on livestock for food, income, and cultural identity.",
-      difficulty: "medium"
-    },
-    // Hard
-    {
-      question: "How does the concept of 'value addition' address Africa's economic challenges in global trade?",
-      options: ["By exporting more raw materials", "By processing raw materials domestically to capture more profit rather than exporting unprocessed commodities", "By reducing all exports", "By importing more manufactured goods"],
-      correct: "By processing raw materials domestically to capture more profit rather than exporting unprocessed commodities",
-      explanation: "Africa loses billions by exporting raw commodities (cocoa, coffee, minerals) that are processed elsewhere. Value addition — processing within Africa — would create jobs, increase export revenues, and reduce dependency on commodity price fluctuations.",
+      question: "How does religious diversity shape social and economic life across different African regions?",
+      options: [
+        "Religion has no influence",
+        "Religious institutions provide education, healthcare, and social networks that significantly shape community life and economic patterns",
+        "Only Islam is practiced in Africa",
+        "Religion only causes conflict"
+      ],
+      correct: "Religious institutions provide education, healthcare, and social networks that significantly shape community life and economic patterns",
+      explanation: "Africa's major religions (Christianity, Islam, indigenous beliefs) shape daily life through educational institutions, health services, social welfare, business ethics, gender roles, and community cohesion, while interfaith dialogue promotes peace.",
       difficulty: "hard"
     },
     {
-      question: "How has mobile banking (like M-Pesa) transformed economic activities in Africa?",
-      options: ["It has had no impact", "It enables financial inclusion for unbanked populations, facilitating trade, savings, and remittances", "It only benefits wealthy people", "It has replaced all traditional banks"],
-      correct: "It enables financial inclusion for unbanked populations, facilitating trade, savings, and remittances",
-      explanation: "Mobile money services like M-Pesa have revolutionized finance in Africa, bringing banking services to millions who lack traditional bank access, enabling peer-to-peer transfers, business payments, savings, and microloans.",
-      difficulty: "hard"
-    },
-    {
-      question: "What is the economic significance of Africa's creative industries (Nollywood, Afrobeats, fashion)?",
-      options: ["They have no economic value", "They generate billions in revenue, create jobs, and project African soft power globally", "They only serve local audiences", "They are declining industries"],
-      correct: "They generate billions in revenue, create jobs, and project African soft power globally",
-      explanation: "Nollywood is the world's second-largest film industry by volume, Afrobeats has global reach, and African fashion is increasingly influential — together generating billions in revenue and millions of jobs while shaping global cultural narratives.",
-      difficulty: "hard"
-    },
-    {
-      question: "How does climate change threaten Africa's agricultural economy and what adaptation strategies are being employed?",
-      options: ["Climate change benefits all agriculture", "Rising temperatures and erratic rainfall threaten yields; adaptation includes drought-resistant crops and improved irrigation", "No adaptation is needed", "Only technology can solve the problem"],
-      correct: "Rising temperatures and erratic rainfall threaten yields; adaptation includes drought-resistant crops and improved irrigation",
-      explanation: "Climate change threatens African agriculture through increased droughts, floods, and unpredictable seasons. Adaptations include drought-resistant crop varieties, conservation agriculture, improved irrigation, agroforestry, and climate information services.",
-      difficulty: "hard"
-    },
-    {
-      question: "Why is economic diversification critical for resource-dependent African economies?",
-      options: ["It is unnecessary", "Dependence on single commodities exposes economies to price volatility; diversification builds resilience", "Single-resource economies are the most stable", "Diversification reduces GDP"],
-      correct: "Dependence on single commodities exposes economies to price volatility; diversification builds resilience",
-      explanation: "Countries dependent on single commodities (oil, minerals) face severe economic shocks when global prices drop. Diversification into manufacturing, services, technology, and agriculture creates more stable, resilient economies with broader job creation.",
+      question: "How can Africa leverage the global employment structure shift toward the service sector for its development?",
+      options: [
+        "It cannot benefit",
+        "By investing in digital skills, IT infrastructure, and business process outsourcing to capture global service industry jobs",
+        "By focusing only on agriculture",
+        "By reducing education spending"
+      ],
+      correct: "By investing in digital skills, IT infrastructure, and business process outsourcing to capture global service industry jobs",
+      explanation: "As the global economy shifts toward services, Africa can capture opportunities through tech hubs (like Nairobi's Silicon Savannah), BPO centers, fintech innovation, and digital entrepreneurship, leapfrogging traditional industrialization.",
       difficulty: "hard"
     }
   ],
   "Unit 6: Human – Natural Environment Interactions": [
-    // Easy
     {
-      question: "What is deforestation?",
-      options: ["Planting new trees", "Clearing or removal of forests", "Protecting forests", "A type of farming"],
-      correct: "Clearing or removal of forests",
-      explanation: "Deforestation is the permanent removal of trees and forest cover, often for agriculture, logging, or urban development.",
+      question: "What is human-environment interaction?",
+      options: [
+        "Only natural disasters",
+        "The ways in which humans modify, adapt to, and depend on the natural environment",
+        "Only agricultural activities",
+        "Only industrial pollution"
+      ],
+      correct: "The ways in which humans modify, adapt to, and depend on the natural environment",
+      explanation: "Human-environment interaction encompasses all ways humans affect the environment (modification), adjust to environmental conditions (adaptation), and rely on natural resources (dependence).",
       difficulty: "easy"
     },
     {
-      question: "What is the main cause of soil erosion in Africa?",
-      options: ["Earthquakes", "Deforestation and poor farming practices", "Volcanic eruptions", "Urbanization only"],
-      correct: "Deforestation and poor farming practices",
-      explanation: "Deforestation removes protective vegetation cover, and poor farming practices (overgrazing, monocropping, plowing slopes) expose soil to wind and water erosion.",
+      question: "What is an example of humans adapting to their environment in Africa?",
+      options: [
+        "Building dams",
+        "Nomadic pastoralism in response to seasonal rainfall patterns",
+        "Deforestation",
+        "Mining operations"
+      ],
+      correct: "Nomadic pastoralism in response to seasonal rainfall patterns",
+      explanation: "Nomadic pastoralism is an adaptation where communities move livestock seasonally to follow water and pasture availability, responding to the natural environment's rainfall patterns.",
       difficulty: "easy"
     },
     {
-      question: "What is desertification?",
-      options: ["Building cities in deserts", "The process by which fertile land becomes desert", "Planting desert plants", "Desert tourism"],
-      correct: "The process by which fertile land becomes desert",
-      explanation: "Desertification is the degradation of land in arid, semi-arid, and dry sub-humid areas, resulting in the expansion of desert-like conditions due to human activities and climate change.",
-      difficulty: "easy"
-    },
-    {
-      question: "Which of the following is an example of environmental conservation?",
-      options: ["Burning forests for farming", "Establishing national parks and protected areas", "Dumping waste in rivers", "Overfishing"],
-      correct: "Establishing national parks and protected areas",
-      explanation: "National parks and protected areas conserve biodiversity, protect ecosystems, and preserve natural habitats for wildlife and future generations.",
-      difficulty: "easy"
-    },
-    {
-      question: "What is pollution?",
-      options: ["Natural weather patterns", "Introduction of harmful substances into the environment", "A type of vegetation", "Population growth"],
-      correct: "Introduction of harmful substances into the environment",
-      explanation: "Pollution is the contamination of the natural environment by harmful substances (chemicals, waste, gases) that cause adverse changes to ecosystems and human health.",
-      difficulty: "easy"
-    },
-    // Medium
-    {
-      question: "How does slash-and-burn agriculture affect the environment?",
-      options: ["It has no effect", "It temporarily increases soil fertility but causes deforestation, air pollution, and biodiversity loss", "It permanently improves the land", "It only affects water resources"],
-      correct: "It temporarily increases soil fertility but causes deforestation, air pollution, and biodiversity loss",
-      explanation: "Slash-and-burn farming clears and burns vegetation, releasing nutrients into soil temporarily. However, it causes deforestation, releases CO2, destroys habitats, and leads to soil degradation when practiced unsustainably.",
+      question: "How does indigenous knowledge contribute to natural resource conservation in Africa?",
+      options: [
+        "It is outdated and irrelevant",
+        "Traditional practices like sacred groves, seasonal harvesting rules, and community resource management protect biodiversity",
+        "It only involves spiritual beliefs",
+        "It conflicts with all modern approaches"
+      ],
+      correct: "Traditional practices like sacred groves, seasonal harvesting rules, and community resource management protect biodiversity",
+      explanation: "Indigenous knowledge systems include sacred groves protecting forests, taboos on hunting during breeding seasons, traditional water harvesting, and communal resource management that have sustained ecosystems for generations.",
       difficulty: "medium"
     },
     {
-      question: "What is the relationship between population growth and environmental degradation in Africa?",
-      options: ["No relationship", "Rapid population growth increases demand for resources, leading to overexploitation and environmental damage", "Population decline causes degradation", "Only industry causes environmental damage"],
-      correct: "Rapid population growth increases demand for resources, leading to overexploitation and environmental damage",
-      explanation: "Growing populations need more food, water, fuel, and land, driving deforestation, overgrazing, water depletion, and pollution, especially when unsustainable practices are used.",
+      question: "What is the relationship between population growth and environmental carrying capacity?",
+      options: [
+        "No relationship exists",
+        "When population exceeds carrying capacity, environmental degradation accelerates as resources are overexploited",
+        "More people always improve the environment",
+        "Carrying capacity is unlimited"
+      ],
+      correct: "When population exceeds carrying capacity, environmental degradation accelerates as resources are overexploited",
+      explanation: "Environmental carrying capacity is the maximum population an environment can sustain. When exceeded, it leads to resource depletion, habitat destruction, pollution, and reduced quality of life.",
       difficulty: "medium"
     },
     {
-      question: "How does water pollution affect communities dependent on rivers and lakes?",
-      options: ["It improves water quality", "It causes waterborne diseases, kills aquatic life, and reduces clean water availability", "It has no health effects", "It only affects fish"],
-      correct: "It causes waterborne diseases, kills aquatic life, and reduces clean water availability",
-      explanation: "Water pollution from industrial waste, agricultural runoff, and sewage introduces pathogens and toxins, causing diseases (cholera, typhoid), killing fish and aquatic organisms, and reducing safe drinking water supplies.",
-      difficulty: "medium"
-    },
-    {
-      question: "What is the Green Belt Movement founded by Wangari Maathai?",
-      options: ["A political party", "A community-based tree planting and environmental conservation movement in Kenya", "A mining company", "A tourism organization"],
-      correct: "A community-based tree planting and environmental conservation movement in Kenya",
-      explanation: "Founded in 1977 by Nobel Laureate Wangari Maathai, the Green Belt Movement empowers communities, especially women, to plant trees, combat deforestation, and promote environmental conservation across Kenya and Africa.",
-      difficulty: "medium"
-    },
-    {
-      question: "How does mining affect local environments in Africa?",
-      options: ["It only benefits the environment", "It causes land degradation, water contamination, deforestation, and air pollution", "It has no environmental impact", "It improves biodiversity"],
-      correct: "It causes land degradation, water contamination, deforestation, and air pollution",
-      explanation: "Mining operations clear vegetation, create open pits, contaminate water with chemicals (mercury, cyanide), produce toxic waste (tailings), and release dust and pollutants into the air.",
-      difficulty: "medium"
-    },
-    // Hard
-    {
-      question: "How can indigenous knowledge systems contribute to sustainable environmental management in Africa?",
-      options: ["They are irrelevant to modern conservation", "Traditional ecological knowledge about land use, water management, and biodiversity can complement scientific approaches", "They only involve superstition", "They conflict with all modern methods"],
-      correct: "Traditional ecological knowledge about land use, water management, and biodiversity can complement scientific approaches",
-      explanation: "Indigenous communities have centuries of knowledge about sustainable land use, seasonal patterns, medicinal plants, and water management that can enhance modern conservation strategies when integrated respectfully.",
+      question: "How do community-based natural resource management (CBNRM) programs balance conservation and livelihoods in Africa?",
+      options: [
+        "They ban all resource use",
+        "They give local communities rights and responsibilities to manage and benefit from natural resources sustainably",
+        "They only benefit governments",
+        "They replace indigenous knowledge entirely"
+      ],
+      correct: "They give local communities rights and responsibilities to manage and benefit from natural resources sustainably",
+      explanation: "CBNRM programs devolve resource management to local communities, allowing them to sustainably use and benefit from wildlife, forests, and fisheries, creating economic incentives for conservation through tourism revenue, sustainable harvesting, and benefit-sharing.",
       difficulty: "hard"
     },
     {
-      question: "What is the concept of 'ecological footprint' and how does it apply to African development?",
-      options: ["A measurement of land area only", "It measures human demand on nature; Africa's footprint is low but growing, while it bears disproportionate climate impacts", "It only applies to industrial nations", "It measures population density"],
-      correct: "It measures human demand on nature; Africa's footprint is low but growing, while it bears disproportionate climate impacts",
-      explanation: "Africa's per capita ecological footprint is among the world's lowest, yet the continent suffers disproportionately from climate change caused largely by high-footprint industrialized nations, raising issues of environmental justice.",
-      difficulty: "hard"
-    },
-    {
-      question: "How does the concept of sustainable development balance economic growth and environmental protection?",
-      options: ["It prioritizes economy over environment", "It seeks development that meets present needs without compromising future generations' ability to meet theirs", "It stops all development", "It only applies to developed countries"],
-      correct: "It seeks development that meets present needs without compromising future generations' ability to meet theirs",
-      explanation: "Sustainable development, as defined by the Brundtland Commission, integrates economic growth, social inclusion, and environmental protection, ensuring that development today does not deplete resources for future generations.",
-      difficulty: "hard"
-    },
-    {
-      question: "How do carbon credit trading systems potentially benefit African countries?",
-      options: ["They have no relevance to Africa", "African countries can earn revenue by protecting forests that absorb carbon, incentivizing conservation", "They only benefit polluting countries", "They require Africa to increase emissions"],
-      correct: "African countries can earn revenue by protecting forests that absorb carbon, incentivizing conservation",
-      explanation: "Carbon credit systems allow African nations to monetize their forests' carbon absorption capacity through REDD+ and similar programs, generating revenue for conservation while helping global emissions reduction efforts.",
-      difficulty: "hard"
-    },
-    {
-      question: "What is the environmental justice dimension of electronic waste (e-waste) dumping in Africa?",
-      options: ["E-waste is beneficial for Africa", "Developed nations export toxic e-waste to Africa, causing health hazards and environmental contamination in marginalized communities", "E-waste is properly recycled in Africa", "Only African-produced electronics create waste"],
-      correct: "Developed nations export toxic e-waste to Africa, causing health hazards and environmental contamination in marginalized communities",
-      explanation: "Millions of tons of e-waste from developed countries end up in places like Agbogbloshie, Ghana, where informal recyclers are exposed to toxic chemicals (lead, mercury, cadmium), causing cancer, neurological damage, and soil/water contamination.",
+      question: "How has the expansion of commercial agriculture altered human-environment interactions in Africa?",
+      options: [
+        "It has had no effect",
+        "Large-scale farming has increased productivity but caused habitat loss, water depletion, chemical pollution, and displacement of smallholders",
+        "It only benefits the environment",
+        "Only subsistence farming affects the environment"
+      ],
+      correct: "Large-scale farming has increased productivity but caused habitat loss, water depletion, chemical pollution, and displacement of smallholders",
+      explanation: "Commercial agriculture expansion in Africa has cleared forests, drained wetlands, depleted groundwater, introduced pesticide and fertilizer pollution, and sometimes displaced indigenous smallholder farmers from their traditional lands.",
       difficulty: "hard"
     }
   ],
   "Unit 7: Geographic Issues And Public Concerns In Africa": [
-    // Easy
     {
-      question: "What is food insecurity?",
-      options: ["Having too much food", "Lack of reliable access to sufficient affordable and nutritious food", "A type of farming", "A food storage method"],
-      correct: "Lack of reliable access to sufficient affordable and nutritious food",
-      explanation: "Food insecurity occurs when people lack consistent access to enough safe, nutritious food for a healthy, active life, affecting millions across Africa.",
+      question: "What is migration?",
+      options: [
+        "A type of farming",
+        "The movement of people from one place to another to live or work",
+        "A natural disaster",
+        "Population counting"
+      ],
+      correct: "The movement of people from one place to another to live or work",
+      explanation: "Migration is the movement of people from one area to another, either within a country (internal) or across international borders (international), driven by push and pull factors.",
       difficulty: "easy"
     },
     {
-      question: "What is one major cause of conflict in Africa?",
-      options: ["Too much rainfall", "Competition over resources like land, water, and minerals", "Excess food production", "Too many schools"],
-      correct: "Competition over resources like land, water, and minerals",
-      explanation: "Resource competition, including disputes over land, water, minerals, and grazing areas, is a significant driver of conflict in many African regions.",
+      question: "What is coastal pollution?",
+      options: [
+        "Clean beaches",
+        "Contamination of coastal waters and shores by pollutants from human activities",
+        "Natural erosion only",
+        "A type of fishing"
+      ],
+      correct: "Contamination of coastal waters and shores by pollutants from human activities",
+      explanation: "Coastal pollution involves the introduction of harmful substances (sewage, oil, plastics, industrial waste) into coastal environments, threatening marine ecosystems, fisheries, and human health.",
       difficulty: "easy"
     },
     {
-      question: "What is a drought?",
-      options: ["Heavy flooding", "An extended period of unusually low rainfall causing water shortage", "A volcanic eruption", "An earthquake"],
-      correct: "An extended period of unusually low rainfall causing water shortage",
-      explanation: "A drought is a prolonged period of abnormally low rainfall that leads to water shortages, crop failures, and famine, particularly devastating in Africa's semi-arid regions.",
-      difficulty: "easy"
-    },
-    {
-      question: "Which disease has been a major public health concern in sub-Saharan Africa?",
-      options: ["Frostbite", "HIV/AIDS", "Altitude sickness", "Hypothermia"],
-      correct: "HIV/AIDS",
-      explanation: "HIV/AIDS has been one of sub-Saharan Africa's greatest public health challenges, with the region accounting for about two-thirds of all people living with HIV globally.",
-      difficulty: "easy"
-    },
-    {
-      question: "What is internal displacement?",
-      options: ["Moving to another country", "Being forced to leave one's home but remaining within the country", "Voluntary tourism", "Urban planning"],
-      correct: "Being forced to leave one's home but remaining within the country",
-      explanation: "Internally displaced persons (IDPs) are forced to flee their homes due to conflict, violence, or natural disasters but remain within their country's borders, unlike refugees who cross international borders.",
-      difficulty: "easy"
-    },
-    // Medium
-    {
-      question: "How does the Sahel desertification crisis create geographic and social concerns?",
-      options: ["It has no social impact", "It causes loss of farmland, displacement, resource conflicts between farmers and herders, and migration", "It only affects wildlife", "It improves living conditions"],
-      correct: "It causes loss of farmland, displacement, resource conflicts between farmers and herders, and migration",
-      explanation: "Desertification in the Sahel reduces productive farmland, intensifying competition between sedentary farmers and pastoralist herders, driving displacement, food insecurity, and contributing to regional instability.",
+      question: "How does unplanned urbanization contribute to flooding in African cities?",
+      options: [
+        "It prevents flooding",
+        "Construction on floodplains, blocked drainage, and reduced permeable surfaces increase flood risk",
+        "Only rainfall causes flooding",
+        "Urbanization reduces flood risk"
+      ],
+      correct: "Construction on floodplains, blocked drainage, and reduced permeable surfaces increase flood risk",
+      explanation: "Unplanned urbanization builds on natural drainage areas, paves over permeable surfaces preventing water absorption, clogs drainage channels with waste, and removes vegetation that absorbs rainfall, dramatically increasing urban flood risk.",
       difficulty: "medium"
     },
     {
-      question: "What geographic factors make the Horn of Africa particularly vulnerable to famine?",
-      options: ["It has abundant rainfall", "Erratic rainfall, recurring droughts, arid climate, combined with conflict and poor infrastructure", "It has too many rivers", "Its geography is ideal for farming"],
-      correct: "Erratic rainfall, recurring droughts, arid climate, combined with conflict and poor infrastructure",
-      explanation: "The Horn of Africa (Somalia, Ethiopia, Eritrea, Djibouti) faces recurring droughts due to its semi-arid climate, complicated by armed conflicts, limited infrastructure, and dependence on rain-fed agriculture.",
+      question: "What are the main causes of international migration from Africa?",
+      options: [
+        "Only tourism",
+        "Conflict, poverty, environmental degradation, lack of opportunities, and family reunification",
+        "Only economic reasons",
+        "Africans don't migrate internationally"
+      ],
+      correct: "Conflict, poverty, environmental degradation, lack of opportunities, and family reunification",
+      explanation: "International migration from Africa is driven by multiple push factors (war, persecution, poverty, drought, unemployment) and pull factors (better opportunities, security, education, family connections) in destination countries.",
       difficulty: "medium"
     },
     {
-      question: "How does transboundary water management create tensions between African nations?",
-      options: ["Rivers always have enough water for everyone", "Shared rivers and lakes create disputes when upstream activities affect downstream access", "Only coastal countries have water issues", "Water is unlimited in Africa"],
-      correct: "Shared rivers and lakes create disputes when upstream activities affect downstream access",
-      explanation: "Rivers like the Nile, Niger, and Zambezi cross multiple countries. Dam construction, irrigation, and pollution upstream can reduce water availability and quality for downstream nations, creating diplomatic tensions.",
-      difficulty: "medium"
-    },
-    {
-      question: "What is the 'brain drain' and how does it affect African development?",
-      options: ["A medical condition", "The emigration of skilled professionals reduces Africa's human capital needed for development", "Immigration of skilled workers to Africa", "A type of education system"],
-      correct: "The emigration of skilled professionals reduces Africa's human capital needed for development",
-      explanation: "Brain drain — the migration of doctors, engineers, scientists, and other professionals to developed countries — deprives African nations of critical skills needed for healthcare, education, and economic development.",
-      difficulty: "medium"
-    },
-    {
-      question: "How does unplanned urbanization create geographic concerns in African cities?",
-      options: ["It solves all urban problems", "It leads to slum formation, inadequate sanitation, flooding risks, and environmental degradation", "It only affects rural areas", "It improves infrastructure naturally"],
-      correct: "It leads to slum formation, inadequate sanitation, flooding risks, and environmental degradation",
-      explanation: "Rapid, unplanned urbanization results in informal settlements (slums) lacking basic services, built in flood-prone or hazardous areas, with inadequate waste management and water supply, affecting millions of urban residents.",
-      difficulty: "medium"
-    },
-    // Hard
-    {
-      question: "How do climate change and conflict interact to create compound crises in Africa?",
-      options: ["They are unrelated", "Climate stress on resources intensifies existing tensions, while conflict reduces communities' ability to adapt to climate change", "Climate change prevents all conflicts", "Conflict improves climate conditions"],
-      correct: "Climate stress on resources intensifies existing tensions, while conflict reduces communities' ability to adapt to climate change",
-      explanation: "Climate change acts as a 'threat multiplier' — resource scarcity from drought/flooding exacerbates existing ethnic, political, and economic tensions, while conflict disrupts adaptation efforts, creating vicious cycles of vulnerability.",
+      question: "How does plastic pollution specifically threaten Africa's coastal and marine environments?",
+      options: [
+        "Plastic is not a problem in Africa",
+        "Plastic debris kills marine life, degrades into microplastics entering food chains, damages coral reefs, and harms fishing and tourism economies",
+        "Plastic only affects land areas",
+        "Africa produces no plastic waste"
+      ],
+      correct: "Plastic debris kills marine life, degrades into microplastics entering food chains, damages coral reefs, and harms fishing and tourism economies",
+      explanation: "Africa's coastlines face growing plastic pollution: marine animals ingest or become entangled in debris, microplastics contaminate seafood and water, coral reefs are smothered, and beach pollution reduces tourism revenue and fishing productivity.",
       difficulty: "hard"
     },
     {
-      question: "What is the geographic significance of Africa's 'land tenure' challenges for food security?",
-      options: ["Land ownership is clear everywhere", "Unclear land rights, customary vs. formal systems, and gender inequality in land access undermine agricultural investment and food production", "Only urban land tenure matters", "Land tenure has no effect on food security"],
-      correct: "Unclear land rights, customary vs. formal systems, and gender inequality in land access undermine agricultural investment and food production",
-      explanation: "In many African countries, overlapping customary and formal land tenure systems create insecurity. Women, who do most farming, often cannot own land, reducing investment in sustainable farming and threatening food security.",
-      difficulty: "hard"
-    },
-    {
-      question: "How does the concept of 'climate refugees' challenge existing international frameworks?",
-      options: ["Climate refugees are well-protected by law", "Current refugee conventions don't recognize climate displacement, leaving millions without legal protection", "Climate change doesn't cause displacement", "All displaced people receive equal protection"],
-      correct: "Current refugee conventions don't recognize climate displacement, leaving millions without legal protection",
-      explanation: "The 1951 Refugee Convention doesn't include climate-displaced people. As millions of Africans are forced to move due to sea-level rise, desertification, and extreme weather, there's an urgent need for new legal frameworks to protect them.",
-      difficulty: "hard"
-    },
-    {
-      question: "How can the African Union's Great Green Wall initiative address multiple geographic concerns simultaneously?",
-      options: ["It only plants trees", "It combats desertification, creates jobs, enhances food security, and sequesters carbon across the Sahel", "It is only an environmental project", "It has been abandoned"],
-      correct: "It combats desertification, creates jobs, enhances food security, and sequesters carbon across the Sahel",
-      explanation: "The Great Green Wall aims to restore 100 million hectares across the Sahel, simultaneously addressing desertification, food insecurity, poverty, and climate change by creating a mosaic of restored land, sustainable agriculture, and green jobs.",
-      difficulty: "hard"
-    },
-    {
-      question: "What is the 'paradox of plenty' in the context of Africa's geographic resource distribution?",
-      options: ["Resource-rich areas always prosper", "Areas with abundant natural resources often experience more poverty, conflict, and environmental degradation than resource-poor areas", "Plenty always benefits everyone", "This concept doesn't apply to Africa"],
-      correct: "Areas with abundant natural resources often experience more poverty, conflict, and environmental degradation than resource-poor areas",
-      explanation: "The paradox of plenty (resource curse) shows that resource-rich African regions (Niger Delta, Eastern DRC) often suffer worse outcomes — conflict, corruption, environmental destruction, and poverty — than resource-poor areas, due to poor governance, inequality, and external exploitation.",
+      question: "What comprehensive strategies can African cities adopt to manage unplanned urbanization?",
+      options: [
+        "Only building more roads",
+        "Integrated approaches including land-use planning, slum upgrading, public transit, green infrastructure, and participatory governance",
+        "Banning rural-urban migration",
+        "Only demolishing informal settlements"
+      ],
+      correct: "Integrated approaches including land-use planning, slum upgrading, public transit, green infrastructure, and participatory governance",
+      explanation: "Effective responses combine spatial planning and zoning, in-situ slum upgrading rather than demolition, mass transit systems, green spaces and drainage, affordable housing policies, and involving communities in urban governance decisions.",
       difficulty: "hard"
     }
   ],
   "Unit 8: Geospatial Information And Data Processing": [
-    // Easy
-    {
-      question: "What does GIS stand for?",
-      options: ["General Information System", "Geographic Information System", "Global Internet Service", "Government Information Software"],
-      correct: "Geographic Information System",
-      explanation: "GIS stands for Geographic Information System — a technology used to capture, store, analyze, manage, and display geographic (spatial) data.",
-      difficulty: "easy"
-    },
-    {
-      question: "What is remote sensing?",
-      options: ["Using a remote control", "Gathering information about the Earth's surface from a distance, usually from satellites or aircraft", "Sensing emotions", "A type of communication"],
-      correct: "Gathering information about the Earth's surface from a distance, usually from satellites or aircraft",
-      explanation: "Remote sensing involves collecting data about the Earth's surface without direct contact, typically using satellites or aircraft equipped with sensors that detect reflected or emitted energy.",
-      difficulty: "easy"
-    },
-    {
-      question: "What does GPS stand for?",
-      options: ["General Positioning System", "Global Positioning System", "Geographic Processing Software", "Ground Planning System"],
-      correct: "Global Positioning System",
-      explanation: "GPS (Global Positioning System) is a satellite-based navigation system that provides location and time information anywhere on Earth.",
-      difficulty: "easy"
-    },
     {
       question: "What is a map scale?",
-      options: ["The weight of a map", "The ratio between distance on a map and actual distance on the ground", "The color of a map", "The size of paper used"],
-      correct: "The ratio between distance on a map and actual distance on the ground",
-      explanation: "Map scale shows the relationship between a distance on the map and the corresponding distance on the ground, expressed as a ratio (e.g., 1:50,000), statement, or graphic bar.",
+      options: [
+        "The size of a map",
+        "The ratio of a distance on the map to the corresponding distance on the ground",
+        "The color scheme of a map",
+        "The type of map projection"
+      ],
+      correct: "The ratio of a distance on the map to the corresponding distance on the ground",
+      explanation: "Map scale indicates how much the real world has been reduced to fit on the map, expressed as a ratio or fraction.",
       difficulty: "easy"
     },
     {
-      question: "What is a satellite image?",
-      options: ["A hand-drawn map", "A photograph of the Earth taken from space by a satellite", "A painting of landscapes", "A type of telescope"],
-      correct: "A photograph of the Earth taken from space by a satellite",
-      explanation: "Satellite images are photographs or digital images of the Earth captured by orbiting satellites, used for weather forecasting, mapping, environmental monitoring, and urban planning.",
+      question: "What is a thematic map?",
+      options: [
+        "A map showing only roads",
+        "A map designed to show a specific theme or topic such as population density or climate zones",
+        "A political map only",
+        "A blank map"
+      ],
+      correct: "A map designed to show a specific theme or topic such as population density or climate zones",
+      explanation: "Thematic maps focus on displaying a particular theme or subject matter, such as rainfall distribution, population density, vegetation types, or economic activities over a geographic area.",
       difficulty: "easy"
     },
-    // Medium
     {
-      question: "What is the difference between raster and vector data in GIS?",
-      options: ["They are the same", "Raster uses a grid of cells (pixels) while vector uses points, lines, and polygons", "Raster is always better than vector", "Vector only stores text data"],
-      correct: "Raster uses a grid of cells (pixels) while vector uses points, lines, and polygons",
-      explanation: "Raster data represents geographic features as a grid of cells (like satellite images), while vector data uses geometric shapes — points (wells), lines (roads), and polygons (lakes) — to represent features.",
+      question: "What is a bar graph used for in geography?",
+      options: [
+        "Measuring temperature",
+        "Comparing quantities of different categories using rectangular bars",
+        "Drawing maps",
+        "Calculating distances"
+      ],
+      correct: "Comparing quantities of different categories using rectangular bars",
+      explanation: "Bar graphs use rectangular bars of varying lengths to compare quantities across different categories, commonly used in geography to display population data, rainfall amounts, or economic statistics.",
+      difficulty: "easy"
+    },
+    {
+      question: "How has digital cartography changed mapmaking in Africa?",
+      options: [
+        "It has had no impact",
+        "It enables faster, more accurate, updatable maps using computers, GPS, and satellite imagery",
+        "It replaced all traditional maps",
+        "Only developed countries use digital cartography"
+      ],
+      correct: "It enables faster, more accurate, updatable maps using computers, GPS, and satellite imagery",
+      explanation: "Digital cartography has revolutionized African mapmaking by enabling rapid creation of detailed maps using GPS data and satellite imagery, allowing frequent updates, interactive analysis, and wider access through web and mobile platforms.",
       difficulty: "medium"
     },
     {
-      question: "How is GIS used in urban planning in Africa?",
-      options: ["It cannot be used for planning", "It maps land use, infrastructure, population distribution, and helps plan services and development", "It only creates decorative maps", "It is only used for military purposes"],
-      correct: "It maps land use, infrastructure, population distribution, and helps plan services and development",
-      explanation: "GIS helps urban planners map existing infrastructure, analyze population distribution, identify areas needing services, plan transportation networks, and manage land use in growing African cities.",
+      question: "What is the difference between a topographic map and a political map?",
+      options: [
+        "They are the same",
+        "Topographic maps show elevation and physical features; political maps show boundaries and administrative divisions",
+        "Political maps show mountains",
+        "Topographic maps show only cities"
+      ],
+      correct: "Topographic maps show elevation and physical features; political maps show boundaries and administrative divisions",
+      explanation: "Topographic maps use contour lines and symbols to represent elevation, terrain, rivers, and land cover, while political maps focus on showing country/state boundaries, capitals, cities, and administrative regions.",
       difficulty: "medium"
     },
     {
-      question: "What are the main components of a Geographic Information System?",
-      options: ["Only software", "Hardware, software, data, people, and methods/procedures", "Only satellite images", "Only maps and compasses"],
-      correct: "Hardware, software, data, people, and methods/procedures",
-      explanation: "A complete GIS comprises five components: hardware (computers, GPS devices), software (ArcGIS, QGIS), data (spatial and attribute), people (analysts, users), and methods (procedures for analysis).",
-      difficulty: "medium"
-    },
-    {
-      question: "How does remote sensing help monitor deforestation in Africa?",
-      options: ["It cannot detect deforestation", "Satellites capture images over time, allowing comparison to detect forest cover changes", "It only works at night", "It requires ground-level cameras"],
-      correct: "Satellites capture images over time, allowing comparison to detect forest cover changes",
-      explanation: "Satellite remote sensing captures multi-temporal images that can be compared to detect changes in forest cover, estimate deforestation rates, identify illegal logging, and monitor reforestation efforts.",
-      difficulty: "medium"
-    },
-    {
-      question: "What is spatial analysis in GIS?",
-      options: ["Drawing maps by hand", "Using GIS tools to examine locations, attributes, and relationships of features in spatial data", "Counting population manually", "Taking photographs"],
-      correct: "Using GIS tools to examine locations, attributes, and relationships of features in spatial data",
-      explanation: "Spatial analysis uses GIS tools to query, measure, and model geographic data — including buffer analysis, overlay analysis, proximity analysis, and spatial statistics — to solve geographic problems.",
-      difficulty: "medium"
-    },
-    // Hard
-    {
-      question: "How can GIS-based multi-criteria decision analysis (MCDA) help solve complex geographic problems in Africa?",
-      options: ["It can only make simple decisions", "It combines multiple spatial factors (soil, slope, rainfall, proximity) to evaluate and rank locations for optimal decision-making", "It replaces all human judgment", "It only works for environmental analysis"],
-      correct: "It combines multiple spatial factors (soil, slope, rainfall, proximity) to evaluate and rank locations for optimal decision-making",
-      explanation: "GIS-based MCDA integrates multiple geographic criteria (environmental, social, economic) with weighted scoring to identify optimal locations for facilities, land use plans, or resource allocation in complex real-world scenarios.",
+      question: "How can open-source GIS tools like QGIS help bridge the digital divide in African geospatial analysis?",
+      options: [
+        "Open-source tools are inferior",
+        "They provide free access to powerful geospatial analysis capabilities without expensive licensing costs",
+        "They require specialized hardware",
+        "Only proprietary software works in Africa"
+      ],
+      correct: "They provide free access to powerful geospatial analysis capabilities without expensive licensing costs",
+      explanation: "Open-source GIS platforms like QGIS offer African researchers, planners, and students access to professional-grade geospatial tools without prohibitive licensing costs, enabling capacity building and localized geographic analysis across resource-limited settings.",
       difficulty: "hard"
     },
     {
-      question: "What role does LiDAR technology play in African geographic research?",
-      options: ["It is not used in Africa", "It creates precise 3D elevation models for terrain analysis, forest canopy mapping, and archaeological discoveries", "It only measures ocean depths", "It is a type of radar for weather"],
-      correct: "It creates precise 3D elevation models for terrain analysis, forest canopy mapping, and archaeological discoveries",
-      explanation: "LiDAR (Light Detection and Ranging) uses laser pulses to create detailed 3D models of terrain and vegetation, enabling precise elevation mapping, biomass estimation, flood modeling, and discovery of hidden archaeological sites.",
-      difficulty: "hard"
-    },
-    {
-      question: "How does participatory GIS (PGIS) empower local communities in African resource management?",
-      options: ["It excludes communities from mapping", "It combines local spatial knowledge with GIS technology, giving communities tools to map and manage their resources", "It only benefits governments", "It replaces traditional knowledge"],
-      correct: "It combines local spatial knowledge with GIS technology, giving communities tools to map and manage their resources",
-      explanation: "PGIS integrates community members' spatial knowledge and priorities with GIS technology, empowering them to create maps of their resources, document land claims, monitor environmental changes, and participate meaningfully in planning decisions.",
-      difficulty: "hard"
-    },
-    {
-      question: "What are the challenges and ethical considerations of using geospatial technology in Africa?",
-      options: ["There are no challenges", "Issues include data privacy, digital divide, data sovereignty, accuracy concerns, and potential misuse for surveillance", "Technology is always beneficial", "Only cost is a concern"],
-      correct: "Issues include data privacy, digital divide, data sovereignty, accuracy concerns, and potential misuse for surveillance",
-      explanation: "Geospatial technology in Africa faces challenges including unequal access (digital divide), data privacy concerns, questions of who owns and controls spatial data (data sovereignty), accuracy of data in data-scarce regions, and potential misuse for surveillance or land grabbing.",
-      difficulty: "hard"
-    },
-    {
-      question: "How can drone technology complement traditional remote sensing for geographic data collection in Africa?",
-      options: ["Drones are not useful", "Drones provide high-resolution, on-demand imagery at lower cost for localized mapping, agriculture monitoring, and disaster response", "Drones replace all satellites", "Drones can only take photographs"],
-      correct: "Drones provide high-resolution, on-demand imagery at lower cost for localized mapping, agriculture monitoring, and disaster response",
-      explanation: "Drones (UAVs) offer higher spatial resolution than satellites, can be deployed quickly for specific areas, and are increasingly affordable — ideal for precision agriculture, infrastructure inspection, disaster damage assessment, and environmental monitoring in Africa.",
+      question: "How can geospatial data integration from multiple sources improve disaster management in Africa?",
+      options: [
+        "Multiple data sources cause confusion",
+        "Combining satellite imagery, census data, terrain models, and real-time sensor data enables comprehensive risk assessment and response planning",
+        "Only one data source is needed",
+        "Disaster management doesn't use geospatial data"
+      ],
+      correct: "Combining satellite imagery, census data, terrain models, and real-time sensor data enables comprehensive risk assessment and response planning",
+      explanation: "Integrating diverse geospatial data — satellite imagery for hazard mapping, census data for vulnerability assessment, DEM for flood modeling, and real-time weather data — enables holistic disaster risk analysis, early warning systems, and efficient response coordination.",
       difficulty: "hard"
     }
   ]
